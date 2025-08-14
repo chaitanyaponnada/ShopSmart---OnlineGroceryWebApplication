@@ -1,112 +1,83 @@
-ShopSmart - Online Grocery Web Application
-🛒 Grocery Web App
-A full-stack e-commerce grocery platform built using React.js, Node.js, Express.js, and MongoDB.This application provides a seamless online grocery shopping experience for customers and a robust management interface for admins.
+# 🛒 ShopSmart - Online Grocery Web Application
 
-✨ Features
-👩‍🍳 User Features
-
-User Registration & Authentication: Secure sign-up, login, and logout functionality.
-Product Catalog & Categories: Browse products organized by categories and subcategories.
-Search & Filters: Find products by name, price range, brand, or ratings.
-Personalized Recommendations: Suggested items based on purchase history.
-Shopping Cart & Checkout: Add/remove products, review cart, and proceed to payment.
-Multiple Payment Options: Supports credit/debit cards, UPI, and digital wallets.
-Order Tracking: Monitor order status in real-time.
-Product Reviews & Ratings: Leave feedback to help other customers.
-Delivery Scheduling: Choose preferred delivery slots or opt for express delivery.
-Order History & Returns: View past orders, request returns, or cancel orders.
-Customer Support: Contact support directly from the app.
-
-🛠 Admin Features
-
-Admin Dashboard: Centralized management of products, orders, users, and analytics.
-Product Management: Add, update, or delete products and categories.
-Order Management: View/process orders, update statuses, and handle refunds.
-User Management: Manage customer accounts and permissions.
-Analytics & Reporting: Track sales performance, inventory levels, and customer activity.
-Marketing Tools: Run promotions, discounts, and campaigns.
-Security & Compliance: Ensure data privacy and legal compliance.
+A **full-stack e-commerce grocery platform** built with **React.js, Node.js, Express.js, and MongoDB**.  
+Provides a seamless online grocery shopping experience for customers and a robust management interface for admins.
 
 
-🛠 Tech Stack
-Frontend
+VIDEO DEMO :  https://drive.google.com/file/d/1zsgP26m-dup_JVXYLu7Hem56cxW76fS4/view?usp=drive_link
+---
 
-React.js: For building dynamic user interfaces.
-React Router DOM: For client-side routing.
-Axios: For API requests.
-Bootstrap / React-Bootstrap: For responsive styling.
-React Icons: For intuitive icons.
+## ✨ Features
 
-Backend
+### 👩‍🍳 User Features
+- **User Registration & Authentication** – Secure sign-up, login, and logout.
+- **Product Catalog & Categories** – Browse products organized into categories/subcategories.
+- **Search & Filters** – Find products by name, price range, brand, or ratings.
+- **Personalized Recommendations** – Suggestions based on purchase history.
+- **Shopping Cart & Checkout** – Add/remove products, review cart, and proceed to payment.
+- **Multiple Payment Options** – Credit/Debit cards, UPI, and digital wallets.
+- **Order Tracking** – Monitor status in real-time.
+- **Product Reviews & Ratings** – Leave feedback for other customers.
+- **Delivery Scheduling** – Choose preferred slots or opt for express delivery.
+- **Order History & Returns** – View past orders, request returns, or cancel orders.
+- **Customer Support** – Contact support directly from the app.
 
-Node.js: For server-side runtime.
-Express.js: For building RESTful APIs.
-Mongoose: For MongoDB object modeling.
-CORS: For enabling cross-origin requests.
+### 🛠 Admin Features
+- **Admin Dashboard** – Centralized control of products, orders, users, and analytics.
+- **Product Management** – Add, update, or delete products and categories.
+- **Order Management** – View/process orders, update statuses, and handle refunds.
+- **User Management** – Manage customer accounts and permissions.
+- **Analytics & Reporting** – Track sales, inventory, and customer activity.
+- **Marketing Tools** – Run promotions, discounts, and campaigns.
+- **Security & Compliance** – Ensure privacy and legal compliance.
 
-Database
+---
 
-MongoDB: NoSQL database for scalable data storage.
+## 🛠 Tech Stack
 
-Development Tools
+**Frontend**
+- React.js – Dynamic user interfaces
+- React Router DOM – Client-side routing
+- Axios – API requests
+- Bootstrap / React-Bootstrap – Responsive design
+- React Icons – UI icons
 
-Git & GitHub: Version control and collaboration.
-Postman: API testing and debugging.
-Visual Studio Code: Code editor for development.
+**Backend**
+- Node.js – Server-side runtime
+- Express.js – RESTful APIs
+- Mongoose – MongoDB object modeling
+- CORS – Cross-origin resource sharing
 
+**Database**
+- MongoDB – NoSQL database
 
-🚀 Getting Started
-Follow these steps to set up and run the project locally.
-1️⃣ Clone the Repository
-git clone https://github.com/your-username/grocery-web-app.git
-cd grocery-web-app
-
-2️⃣ Install Dependencies
-Backend
-cd server
-npm install
-
-Frontend
-cd ../client
-npm install
-
-3️⃣ Configure Environment Variables
-Create a .env file in the server folder with the following:
-PORT=3001
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
-
-4️⃣ Run the Application
-Backend
-cd server
-npm start
-
-Frontend
-cd client
-npm start
-
-Open your browser and navigate to:
-http://localhost:3000
+**Development Tools**
+- Git & GitHub – Version control
+- Postman – API testing
+- Visual Studio Code – Code editor
 
 
 📜 How It Works
+User Flow
 
-User Flow:
-Register or log in to the platform.
-Browse products by category, search, or apply filters.
-Add items to the cart and proceed to checkout.
-Make a payment and track the order until delivery.
+Register or log in.
 
+Browse products by category, search, or filters.
 
-Admin Flow:
-Manage product listings, orders, users, and analytics via the admin dashboard.
+Add items to the cart and checkout.
+
+Make payment and track order until delivery.
+
+Admin Flow
+
+Manage products, orders, users, and analytics in the Admin Dashboard.
 
 🎥 Demo
-📹 Watch the Demo Video: 
-
+📹 Watch the Demo Video: https://drive.google.com/file/d/1zsgP26m-dup_JVXYLu7Hem56cxW76fS4/view?usp=drive_link
 
 👨‍💻 Author
-Chaitanya PonnadaFull-Stack Developer passionate about building scalable, user-focused web applications.
+Chaitanya Ponnada
+Full-Stack Developer passionate about building scalable, user-focused web applications.
 
 📄 License
 This project is for educational and demonstration purposes only.
